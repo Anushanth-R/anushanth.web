@@ -295,7 +295,7 @@
 
 .skill-icons {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 35px;
 }
 
@@ -317,13 +317,20 @@
     height: calc(100dvh - 45px);
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 25px;
     justify-content: center;
     align-items: center;
     scroll-margin-top: 45px;
 }
 
-.card-list {
+.projects p a {
+    text-decoration: underline;
+    color:var(--primary-color)
+}
+
+/* Archived */
+
+/* .card-list {
     display: flex;
     gap: 20px;
     overflow: hidden;
@@ -360,6 +367,22 @@
     display: flex;
     align-self: center;
     justify-self: center;
+} */
+
+/* Contact */
+
+.contact {
+    height: calc(100dvh - 45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-margin-top: 45px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
 }
 
 
