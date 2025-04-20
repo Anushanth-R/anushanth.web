@@ -15,7 +15,7 @@
 }
 
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: "Trirong", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -132,15 +132,12 @@
 
 .profile-info h1 span {
     color: var(--primary-color);
-    /* background-image: url(Assets/wp10967813-goku-dbs-wallpapers.jpg);
-    background-size: contain;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; */
 }
 
 .profile-info h3 {
     padding: 5px 0;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    margin-bottom: 10px;
 }
 
 .profile-info h3 span {
@@ -439,7 +436,7 @@
     }
 
     .profile-info h3 {
-        font-size: 16px;
+        font-size: 1rem;
     }
     
     .social-icons {
@@ -515,7 +512,7 @@
     }
     
     .profile-info h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     
     .profile-info p {
